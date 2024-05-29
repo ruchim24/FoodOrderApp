@@ -1,6 +1,6 @@
 import React from "react";
 import RestrautantCard from "./RestraurantCard";
-import resList from '../../utils/mockData';
+import resList from '../utils/mockData';
 
 const Body = () => {
     return (
