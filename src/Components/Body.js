@@ -46,22 +46,22 @@ const Body = () => {
      <Shimmer /> 
      : (
       <div className="body">
-        <div className="filter">
-          <div className="search">
+        <div className="filter flex">
+          <div className="search mx-8 my-2 p-2">
             <input 
               type="text" 
-              className="search-box" 
+              className="h-14 w-56 p-2 border border-solid border-black focus:border-orange-300" 
               value={searchText}
               placeholder="Search Restaurant Name..."
               onChange={(e) => handleChange(e)}
             />
-            <button onClick={() => handleSearch()}>Search</button>
+            <button className="h-14 px-4 bg-orange-300 ml-2 rounded-lg" onClick={() => handleSearch()}>Search</button>
           </div>
-            <button className="filter-btn" onClick={() => handleClick()}>
+            <button className="h-14 p-4 bg-orange-300 m-4 rounded-lg" onClick={() => handleClick()}>
                 Top Rated Restraurants
             </button>
         </div>
-        <div className="res-container">
+        <div className="flex flex-wrap mx-4">
           {data?.map((res) => {
             return <Link key={res.info.id} to={"/restaurant/"+res.info.id}><RestrautantCard  resData={res.info} /></Link>;
           })}
