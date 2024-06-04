@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "jest",
-    "start": "parcel index.html",
+    "start": "parcel index.html && parcel watch index.html",
     "build": "parcel build index.html"
   },
   "author": "Ruchi",
