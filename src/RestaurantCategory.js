@@ -9,7 +9,7 @@ const RestaurantCategory = ({data,open,setOpen}) =>{
             <span><i className={`fa-solid ${open ? 'fa-caret-down' : 'fa-caret-up'} icon`} ></i></span>
           </div>
           { open &&
-          <ItemList items={data?.itemCards} />
+          <ItemList items={data?.itemCards} add={true}/>
           }
         </div>
      )
