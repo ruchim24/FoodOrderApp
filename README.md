@@ -15,6 +15,7 @@ This is a frontend application entirely made by using <b>React</b> library and <
    - I have implemented <b>React Hooks</b> like useState, useEffect, useContext in this application.
    - Created <b>Custom Hooks</b> as well.
    - Implemented <b>Higher Order Components</b>.
+   - Implemented <b>Shimmer UI</b>
    - Used Tailwind CSS.
 
 <b>How to use it?</b>
