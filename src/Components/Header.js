@@ -20,8 +20,7 @@ const Header = () => {
       setBtnClick(!btnClick);
     }
   };
-
-  console.log(cartItems);
+  
   return (
     <div className="flex justify-between shadow-lg mb-2 bg-orange-300">
       <div className="">
