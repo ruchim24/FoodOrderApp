@@ -20,7 +20,7 @@ This is a frontend application entirely made by using <b>React</b> library and <
    - Used <b>Redux Toolkit</b> to design cart.
    - Used Tailwind CSS.
  
-<b>Some Cool Features</b>
+<b>What is in this application?</b>
 - Displaying Restaurants using live Swiggy api.
 - Displaying Restaurant's menu using live Swiggy api as well.
 - Adding food items in cart.
