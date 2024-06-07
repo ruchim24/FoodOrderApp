@@ -1,4 +1,4 @@
-A <b>Food Ordering App 🍕</b> in Making!!!!!
+A <b>Food Ordering App 🍕</b>!!!!!
 
 Sounds Delicious right?
 
@@ -19,6 +19,8 @@ This is a frontend application entirely made by using <b>React</b> library and <
    - Implemented <b>Shimmer UI</b>.
    - Used <b>Redux Toolkit</b> to design cart.
    - Used Tailwind CSS.
+   - Used <b>React Testing Library</b> and <b>Jest</b> for testing.
+   - Wrote testcases for Unit and Integration testing.
  
 <b>What is in this application?</b>
 - Displaying Restaurants using live Swiggy api.
@@ -53,4 +55,4 @@ This is a frontend application entirely made by using <b>React</b> library and <
  Voila 😉 its done.
 
 
-<b>P.S.</b> This a side project I am working on and is a basic application just to hone my skills. Might add new functionalities later.
+<b>P.S.</b> This a side project I am working on and is a basic application just to hone my skills.
