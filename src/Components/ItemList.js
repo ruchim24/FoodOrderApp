@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addItem, removeItem } from "../utils/Slices/cartSlice";
 
@@ -18,6 +18,7 @@ const ItemList = ({ items, add }) => {
         const itm = item?.card?.info;
         return (
           <div
+            data-testid="items"
             key={itm?.id}
             className="p-2 m-2 border-orange-300 border-b-2 text-left flex justify-between"
           >
@@ -37,9 +38,10 @@ const ItemList = ({ items, add }) => {
                   "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/" +
                   itm?.imageId
                 }
+                onError={e => e.target.style.display = 'none'} 
               />
               <button
-                className="flex relative justify-center ml-auto mt-[-25px] z-10 bg-black text-white rounded-lg p-2 mx-5"
+                className="flex relative justify-center ml-auto mt-[-20px] z-10 bg-black text-white rounded-lg p-2 mr-10"
                 onClick={() => handleClick(item)}
               >
                {add ? "Add+" : "Remove"} 

@@ -69,6 +69,7 @@ const Body = () => {
             type="text"
             className="h-14 w-56 p-2 border border-solid border-black focus:border-orange-300"
             value={searchText}
+            data-testid="searchInput"
             placeholder="Search Restaurant Name..."
             onChange={(e) => handleChange(e)}
           />

@@ -3,8 +3,9 @@ import { CDN_URL } from "../utils/constants";
 
 const RestrautantCard = (props) => {
     const { name, cloudinaryImageId, costForTwo, cuisines, avgRating, sla } = props.resData;
+   
     return (
-      <div className="m-[20px] p-3 w-[250px] h-[600px] bg-orange-200 rounded-lg break-words hover:border border-solid border-black">
+      <div data-testid="resCard" className="m-[20px] p-3 w-[250px] h-[600px] bg-orange-200 rounded-lg break-words hover:border border-solid border-black">
         <img
           className="h-[200px] w-full mb-4 rounded-lg"
           alt="res-logo"
